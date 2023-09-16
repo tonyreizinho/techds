@@ -15,6 +15,10 @@ nav h1 {
     font-family: 'PT Serif', serif;
     font-size: 25px;
 }
+.a {
+    text-decoration: none;
+    color: white;
+}
 
 .titulo {
     display: flex;
@@ -74,18 +78,30 @@ li a:hover {
     margin-left: 20%;
     margin-right: 20%;
     display: flex;
+    justify-content: center;
     color: #191e24;
     position: relative;
     top: 90px;
 }
-
+.conteudo2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    justify-content: center;
+    color: #191e24;
+    position: relative;
+    top: 90px;
+}
 .img {
     margin-right: 40px;
     size: 50vh;
     max-width: 100%;
     height: auto;
 }
-
+.img2 {
+    position: relative;
+    left: 20vw;
+}
 p {
     font-family: 'Poppins', sans-serif;
 }
@@ -99,8 +115,18 @@ p {
     position: relative;
     top: 250px;
 }
+.final2 {
+    background-color: #134074;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 0;
+    position: relative;
+    top: 250px;
+}
 
-.p {
+.p{
     position: relative;
     top: 9px;
 }
@@ -111,6 +137,7 @@ p {
 }
 .mark {
     background-color: #13407489;
+
 }
 
 
@@ -152,7 +179,7 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        position: relative;
         top: -300px;
         right: 0;
         background-color: #134074;
@@ -230,10 +257,18 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40px;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
+        height: 50px;
+        width: auto;
+        position: relative;
+        top: 66vh;
+    }
+    .mark {
+        background-color: #13407489;
+        
+    }
+    .img2 {
+        position: relative;
+        left: 30vw;
     }
 }
 
