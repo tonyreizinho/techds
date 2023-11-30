@@ -105,25 +105,21 @@ li a:hover {
 p {
     font-family: 'Poppins', sans-serif;
 }
-.final {
+.final, .final2 {
     background-color: #134074;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
     border: 0;
+}
+.final {
     position: relative;
     top: 250px;
 }
 .final2 {
-    background-color: #134074;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    border: 0;
     position: relative;
-    top: 250px;
+    top: 50vh;
 }
 
 .p{
@@ -271,4 +267,3 @@ p {
         left: 30vw;
     }
 }
-
